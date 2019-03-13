@@ -69,13 +69,13 @@
                 "default": "Yes"
             },
             {
-                "name": "is_public",
-                "type": "boolean",
+                "name": "language",
                 "ask": {
-                    "en": "Is it a public application?",
-                    "fr": "Est-ce une application publique ?"
+                    "en": "Choose the application language",
+                    "fr": "Choisissez la langue de l'application"
                 },
-                "default": true
+                "choices": ["en_EN", "fr_FR"],
+                "default": "fr_FR"
             },
             {
                 "name": "passwd",
